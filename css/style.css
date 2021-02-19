@@ -52,11 +52,52 @@ div.vertical {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "div_1 div_2 div_3" "ft";
   padding: 10vw;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section7 div {
-  background-color: red;
-  height: 200px;
+  display: -ms-grid;
+  display: grid;
+  height: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  width: 95%;
+}
+
+.section7 div hr {
+  color: #6e774a;
+  width: 100%;
+  size: 2px;
+  padding: 0;
+}
+
+.section7 div p {
+  font-size: 14px;
+  font-family: "Oswald";
+  color: #6e774a;
+}
+
+.section7 div p a {
+  text-decoration: none;
+  color: #6e774a;
+}
+
+.section7 div h2 {
+  font-size: 60px;
+  font-family: "Oswald";
+  color: #6e774a;
+}
+
+.section7 footer {
+  background-color: green;
+  height: 100px;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,10 +5,48 @@
     height: 34.6vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "div_1 div_2 div_3"
+    "ft";
     padding: 10vw;
+    justify-items: center;
+    justify-content: center;
     
     div {
-      background-color: red;
-      height: 200px;
+        display: grid;
+        height: 250px;
+        justify-content: center;
+        justify-items: center;
+        // background-color: gold;
+        width: 95%;
+        hr {
+            color: rgb(110, 119, 74);
+            width: 100%;
+            size: 2px;
+            padding: 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: "Oswald";
+            color: rgb(110, 119, 74);
+            a {
+                text-decoration: none;
+                color: rgb(110, 119, 74);
+            }          
+        }
+
+        h2 {
+            font-size: 60px;
+            font-family: "Oswald";
+            color: rgb(110, 119, 74);
+        }
+
+    }
+
+    footer {
+        background-color: green;
+        height: 100px;
+        width: 100%;
     }
   }
