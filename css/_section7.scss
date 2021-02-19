@@ -1,0 +1,14 @@
+.section7 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1920px;
+    height: 34.6vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10vw;
+    
+    div {
+      background-color: red;
+      height: 200px;
+    }
+  }

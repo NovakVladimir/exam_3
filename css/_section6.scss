@@ -1,0 +1,44 @@
+.section6 {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 41.6vw;
+    max-height: 800px;
+    background: url(../images/6_Background_2.png), url(../images/6_Background_1.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+    div {
+      width: 600px;
+      
+        p {
+            text-align: center;
+            font-size: 22px;
+            font-family: "Myriad Pro";
+            color: rgb(255, 255, 255);
+
+                
+          }
+       
+      }  
+              
+}
+
+div.vertical {
+  width: 50px;
+  height: 200px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 24px;
+  font-family: "Oswald";
+  color: rgb(247, 248, 243);
+  text-transform: uppercase;
+  text-align: right;
+  writing-mode: vertical-rl;          
+  }
+
+ 
