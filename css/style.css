@@ -60,9 +60,7 @@ div.vertical {
           justify-content: center;
 }
 
-.section7 div {
-  display: -ms-grid;
-  display: grid;
+div {
   height: 250px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -71,31 +69,61 @@ div.vertical {
   width: 95%;
 }
 
-.section7 div hr {
+div hr {
   color: #6e774a;
   width: 100%;
   size: 2px;
   padding: 0;
 }
 
-.section7 div p {
+div p {
   font-size: 14px;
   font-family: "Oswald";
   color: #6e774a;
+  text-align: center;
 }
 
-.section7 div p a {
+div p a {
   text-decoration: none;
+  text-align: center;
   color: #6e774a;
 }
 
-.section7 div h2 {
+div h2 {
   font-size: 60px;
   font-family: "Oswald";
   color: #6e774a;
+  text-align: center;
 }
 
-.section7 footer {
+div div {
+  height: 60px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div div img {
+  text-align: center;
+}
+
+div h3 {
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #1c1c1b;
+  text-align: center;
+  font-weight: 800;
+}
+
+hr.vert {
+  width: 70px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+footer {
   background-color: green;
   height: 100px;
   width: 100%;
